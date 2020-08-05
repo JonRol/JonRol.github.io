@@ -220,7 +220,7 @@
   <div class="article-entry" itemprop="articleBody">
     
     <blockquote>
-<p>docker run –name mytomcat -p 8080:8080 -v /root/tomcat/webapps:/usr/local/tomcat/webapps -v /root/tomcat/logs:/usr/local/tomcat/logs -d tomcat</p>
+<p>docker run –name mytomcat -p 8080:8080 –privileged=true -v /root/tomcat/webapps:/usr/local/tomcat/webapps -v /root/tomcat/logs:/usr/local/tomcat/logs -d tomcat</p>
 </blockquote>
 
     

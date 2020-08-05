@@ -10,15 +10,15 @@
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="docker run –name mytomcat -p 8080:8080 -v &#x2F;root&#x2F;tomcat&#x2F;webapps:&#x2F;usr&#x2F;local&#x2F;tomcat&#x2F;webapps -v &#x2F;root&#x2F;tomcat&#x2F;logs:&#x2F;usr&#x2F;local&#x2F;tomcat&#x2F;logs -d tomcat">
+  <meta name="description" content="docker run –name mytomcat -p 8080:8080 –privileged&#x3D;true -v &#x2F;root&#x2F;tomcat&#x2F;webapps:&#x2F;usr&#x2F;local&#x2F;tomcat&#x2F;webapps -v &#x2F;root&#x2F;tomcat&#x2F;logs:&#x2F;usr&#x2F;local&#x2F;tomcat&#x2F;logs -d tomcat">
 <meta property="og:type" content="article">
 <meta property="og:title" content="docker启动tomcat容器">
 <meta property="og:url" content="https://jonrol.github.io/2020/08/05/docker%E5%90%AF%E5%8A%A8tomcat%E5%AE%B9%E5%99%A8/index.html">
 <meta property="og:site_name" content="caesar&#39;blog">
-<meta property="og:description" content="docker run –name mytomcat -p 8080:8080 -v &#x2F;root&#x2F;tomcat&#x2F;webapps:&#x2F;usr&#x2F;local&#x2F;tomcat&#x2F;webapps -v &#x2F;root&#x2F;tomcat&#x2F;logs:&#x2F;usr&#x2F;local&#x2F;tomcat&#x2F;logs -d tomcat">
+<meta property="og:description" content="docker run –name mytomcat -p 8080:8080 –privileged&#x3D;true -v &#x2F;root&#x2F;tomcat&#x2F;webapps:&#x2F;usr&#x2F;local&#x2F;tomcat&#x2F;webapps -v &#x2F;root&#x2F;tomcat&#x2F;logs:&#x2F;usr&#x2F;local&#x2F;tomcat&#x2F;logs -d tomcat">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-08-05T15:57:02.000Z">
-<meta property="article:modified_time" content="2020-08-05T15:57:48.642Z">
+<meta property="article:modified_time" content="2020-08-05T16:20:51.107Z">
 <meta property="article:author" content="caesar">
 <meta name="twitter:card" content="summary">
   
@@ -220,7 +220,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">25字</span>
+      <span class="post-count">27字</span>
     </span>
   </span>
 
@@ -241,7 +241,7 @@
   <div class="article-entry" itemprop="articleBody">
     
     <blockquote>
-<p>docker run –name mytomcat -p 8080:8080 -v /root/tomcat/webapps:/usr/local/tomcat/webapps -v /root/tomcat/logs:/usr/local/tomcat/logs -d tomcat</p>
+<p>docker run –name mytomcat -p 8080:8080 –privileged=true -v /root/tomcat/webapps:/usr/local/tomcat/webapps -v /root/tomcat/logs:/usr/local/tomcat/logs -d tomcat</p>
 </blockquote>
 
     
