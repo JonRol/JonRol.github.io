@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>caesar&#39;blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://jonrol.github.io/"/>
+  <updated>2020-08-05T16:20:51.107Z</updated>
+  <id>https://jonrol.github.io/</id>
+  
+  <author>
+    <name>caesar</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker启动tomcat容器</title>
+    <link href="https://jonrol.github.io/2020/08/05/docker%E5%90%AF%E5%8A%A8tomcat%E5%AE%B9%E5%99%A8/"/>
+    <id>https://jonrol.github.io/2020/08/05/docker%E5%90%AF%E5%8A%A8tomcat%E5%AE%B9%E5%99%A8/</id>
+    <published>2020-08-05T15:57:02.000Z</published>
+    <updated>2020-08-05T16:20:51.107Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>docker run –name mytomcat -p 8080:8080 –privileged=true -v /root/tomcat/webapps:/usr/local/tomcat/webapps -v /root/tomcat/logs:/usr/local/tomcat/logs -d tomcat</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;docker run –name mytomcat -p 8080:8080 –privileged=true -v /root/tomcat/webapps:/usr/local/tomcat/webapps -v /root/tomcat/lo
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Angular笔记</title>
+    <link href="https://jonrol.github.io/2020/07/30/Angular%E7%AC%94%E8%AE%B0/"/>
+    <id>https://jonrol.github.io/2020/07/30/Angular%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-07-30T15:37:48.000Z</published>
+    <updated>2020-07-30T16:42:12.441Z</updated>
+    
+    <content type="html"><![CDATA[<p>Angular<br>谷歌开源的JavaScript库,性能比之前最先的版本提升很多，采用Typescript进行。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Angular&lt;br&gt;谷歌开源的JavaScript库,性能比之前最先的版本提升很多，采用Typescript进行。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>shiro学习笔记</title>
+    <link href="https://jonrol.github.io/2020/07/30/shiro%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://jonrol.github.io/2020/07/30/shiro%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-07-30T06:49:41.000Z</published>
+    <updated>2020-07-30T09:10:01.878Z</updated>
+    
+    <content type="html"><![CDATA[<p>[users]<br>caesar=123<br>zhangsan=123456<br>lisi=789</p><h4 id="MD5算法"><a href="#MD5算法" class="headerlink" title="MD5算法"></a>MD5算法</h4><p>tomcat.zip tomcat.md5 fdfd…<br>作用：一般用来加密 或者 签名(校检和)</p><p>特点：MD5算法不可逆，如何内容相同无论执行多少次生成的结果始终不变</p><p>生成结果：始终是一个16进制32位长度字符串</p><p>Sevice层加密密码 md5 + salt</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;[users]&lt;br&gt;caesar=123&lt;br&gt;zhangsan=123456&lt;br&gt;lisi=789&lt;/p&gt;
+&lt;h4 id=&quot;MD5算法&quot;&gt;&lt;a href=&quot;#MD5算法&quot; class=&quot;headerlink&quot; title=&quot;MD5算法&quot;&gt;&lt;/a&gt;MD5算法&lt;/h4&gt;&lt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>论积累的作用</title>
+    <link href="https://jonrol.github.io/2020/07/29/%E8%AE%BA%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%BD%9C%E7%94%A8/"/>
+    <id>https://jonrol.github.io/2020/07/29/%E8%AE%BA%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%BD%9C%E7%94%A8/</id>
+    <published>2020-07-29T15:21:44.000Z</published>
+    <updated>2020-07-29T15:23:19.861Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="不积跬步无以至千里，不积小流无以致江海"><a href="#不积跬步无以至千里，不积小流无以致江海" class="headerlink" title="不积跬步无以至千里，不积小流无以致江海"></a>不积跬步无以至千里，不积小流无以致江海</h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;不积跬步无以至千里，不积小流无以致江海&quot;&gt;&lt;a href=&quot;#不积跬步无以至千里，不积小流无以致江海&quot; class=&quot;headerlink&quot; title=&quot;不积跬步无以至千里，不积小流无以致江海&quot;&gt;&lt;/a&gt;不积跬步无以至千里，不积小流无以致江海&lt;/h4&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>放松一点</title>
+    <link href="https://jonrol.github.io/2020/07/28/%E6%94%BE%E6%9D%BE%E4%B8%80%E7%82%B9/"/>
+    <id>https://jonrol.github.io/2020/07/28/%E6%94%BE%E6%9D%BE%E4%B8%80%E7%82%B9/</id>
+    <published>2020-07-28T12:18:46.670Z</published>
+    <updated>2020-07-28T12:38:16.296Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">int</span> id;</span><br><span class="line">  <span class="keyword">private</span> String name;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>报告</p></blockquote><ul><li>任务</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;hello&quot;&gt;&lt;a href=&quot;#hello&quot; class=&quot;headerlink&quot; title=&quot;hello&quot;&gt;&lt;/a&gt;hello&lt;/h4&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>图片测试2</title>
+    <link href="https://jonrol.github.io/2020/07/28/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%952/"/>
+    <id>https://jonrol.github.io/2020/07/28/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%952/</id>
+    <published>2020-07-28T12:07:11.000Z</published>
+    <updated>2020-08-08T11:05:57.169Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://imgchr.com/i/aEIlod" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/07/28/aEIlod.th.jpg" alt="aEIlod.th.jpg"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/aEIlod&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2020/07/28/aEIlod.th.jpg&quot; alt=&quot;aEIlod.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>无聊的生活需要一点动力</title>
+    <link href="https://jonrol.github.io/2020/07/28/%E6%97%A0%E8%81%8A%E7%9A%84%E7%94%9F%E6%B4%BB%E9%9C%80%E8%A6%81%E4%B8%80%E7%82%B9%E5%8A%A8%E5%8A%9B/"/>
+    <id>https://jonrol.github.io/2020/07/28/%E6%97%A0%E8%81%8A%E7%9A%84%E7%94%9F%E6%B4%BB%E9%9C%80%E8%A6%81%E4%B8%80%E7%82%B9%E5%8A%A8%E5%8A%9B/</id>
+    <published>2020-07-28T04:12:53.000Z</published>
+    <updated>2020-07-28T04:13:29.478Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="曾几何时，人生已经变了样…"><a href="#曾几何时，人生已经变了样…" class="headerlink" title="曾几何时，人生已经变了样…"></a>曾几何时，人生已经变了样…</h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;曾几何时，人生已经变了样…&quot;&gt;&lt;a href=&quot;#曾几何时，人生已经变了样…&quot; class=&quot;headerlink&quot; title=&quot;曾几何时，人生已经变了样…&quot;&gt;&lt;/a&gt;曾几何时，人生已经变了样…&lt;/h1&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo 常用命令</title>
+    <link href="https://jonrol.github.io/2020/07/28/hexo-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>https://jonrol.github.io/2020/07/28/hexo-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
+    <published>2020-07-28T03:53:17.000Z</published>
+    <updated>2020-07-28T03:58:33.252Z</updated>
+    
+    <content type="html"><![CDATA[<p>测试</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;测试&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>和时间赛跑</title>
+    <link href="https://jonrol.github.io/2020/07/28/%E5%92%8C%E6%97%B6%E9%97%B4%E8%B5%9B%E8%B7%91/"/>
+    <id>https://jonrol.github.io/2020/07/28/%E5%92%8C%E6%97%B6%E9%97%B4%E8%B5%9B%E8%B7%91/</id>
+    <published>2020-07-27T16:04:03.000Z</published>
+    <updated>2020-07-27T16:06:33.186Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="如果人生还能过再来一次你会后悔吗？"><a href="#如果人生还能过再来一次你会后悔吗？" class="headerlink" title="如果人生还能过再来一次你会后悔吗？"></a>如果人生还能过再来一次你会后悔吗？</h4><h4 id="长大以后才知道现实是多么的残酷！"><a href="#长大以后才知道现实是多么的残酷！" class="headerlink" title="长大以后才知道现实是多么的残酷！"></a>长大以后才知道现实是多么的残酷！</h4><h4 id="sleep…"><a href="#sleep…" class="headerlink" title="sleep…"></a>sleep…</h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;如果人生还能过再来一次你会后悔吗？&quot;&gt;&lt;a href=&quot;#如果人生还能过再来一次你会后悔吗？&quot; class=&quot;headerlink&quot; title=&quot;如果人生还能过再来一次你会后悔吗？&quot;&gt;&lt;/a&gt;如果人生还能过再来一次你会后悔吗？&lt;/h4&gt;&lt;h4 id=&quot;长大以后才
+      
+    
+    </summary>
+    
+    
+    
+      <category term="life" scheme="https://jonrol.github.io/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>github入门笔记</title>
+    <link href="https://jonrol.github.io/2020/07/27/github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/"/>
+    <id>https://jonrol.github.io/2020/07/27/github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-07-27T15:36:27.000Z</published>
+    <updated>2020-07-27T15:40:40.728Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="为何时间过得如此之快，为何人生要如此的类，好累啊，好像睡觉…"><a href="#为何时间过得如此之快，为何人生要如此的类，好累啊，好像睡觉…" class="headerlink" title="为何时间过得如此之快，为何人生要如此的类，好累啊，好像睡觉…"></a>为何时间过得如此之快，为何人生要如此的类，好累啊，好像睡觉…</h4><h4 id="一觉醒来我还是那个无忧无虑的少年，那该多好！！！"><a href="#一觉醒来我还是那个无忧无虑的少年，那该多好！！！" class="headerlink" title="一觉醒来我还是那个无忧无虑的少年，那该多好！！！"></a>一觉醒来我还是那个无忧无虑的少年，那该多好！！！</h4><h4 id="人生没有回头路，努力吧，趁现在还有机会…"><a href="#人生没有回头路，努力吧，趁现在还有机会…" class="headerlink" title="人生没有回头路，努力吧，趁现在还有机会…"></a>人生没有回头路，努力吧，趁现在还有机会…</h4><h4 id="不要等失去了才后悔莫及…"><a href="#不要等失去了才后悔莫及…" class="headerlink" title="不要等失去了才后悔莫及…"></a>不要等失去了才后悔莫及…</h4><h4 id="relax…"><a href="#relax…" class="headerlink" title="relax…"></a>relax…</h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;为何时间过得如此之快，为何人生要如此的类，好累啊，好像睡觉…&quot;&gt;&lt;a href=&quot;#为何时间过得如此之快，为何人生要如此的类，好累啊，好像睡觉…&quot; class=&quot;headerlink&quot; title=&quot;为何时间过得如此之快，为何人生要如此的类，好累啊，好像睡觉…&quot;&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://jonrol.github.io/2020/07/27/hello-world/"/>
+    <id>https://jonrol.github.io/2020/07/27/hello-world/</id>
+    <published>2020-07-27T11:55:55.501Z</published>
+    <updated>2020-07-27T11:55:55.501Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
