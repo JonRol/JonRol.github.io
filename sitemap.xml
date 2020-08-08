@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jonrol.github.io/2020/08/08/hexo_config/</loc>
+    
+    <lastmod>2020-08-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jonrol.github.io/2020/08/05/docker%E5%90%AF%E5%8A%A8tomcat%E5%AE%B9%E5%99%A8/</loc>
     
     <lastmod>2020-08-05</lastmod>

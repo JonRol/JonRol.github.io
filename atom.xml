@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jonrol.github.io/"/>
-  <updated>2020-08-05T16:20:51.107Z</updated>
+  <updated>2020-08-08T14:07:13.830Z</updated>
   <id>https://jonrol.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo_config</title>
+    <link href="https://jonrol.github.io/2020/08/08/hexo_config/"/>
+    <id>https://jonrol.github.io/2020/08/08/hexo_config/</id>
+    <published>2020-08-08T14:06:35.667Z</published>
+    <updated>2020-08-08T14:07:13.830Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#content</span></span><br><span class="line"><span class="attr">jsonContent:</span></span><br><span class="line">    <span class="attr">meta:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">pages:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">posts:</span></span><br><span class="line">      <span class="attr">title:</span> <span class="literal">true</span></span><br><span class="line">      <span class="attr">date:</span> <span class="literal">true</span></span><br><span class="line">      <span class="attr">path:</span> <span class="literal">true</span></span><br><span class="line">      <span class="attr">text:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">raw:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">content:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">slug:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">updated:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">comments:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">link:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">permalink:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">excerpt:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">categories:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">tags:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>docker启动tomcat容器</title>
